@@ -26,7 +26,7 @@ This is a solution to the Interactive rating component challenge from Frontend M
 
 ## Useful resources
 
-* 
+* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
 
 ## Acknowledgements
 
