@@ -125,6 +125,7 @@ button:hover, button:focus{
 
 /* Second part: 'thank you' */
 .thanks {
+    display: none;
     text-align: center;
 }
 
