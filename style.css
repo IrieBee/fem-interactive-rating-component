@@ -39,6 +39,9 @@ body {
 
 main {
     margin: auto;
+}
+
+section {
     background: var(--clr-blue);
     max-width: 23rem;
     border-radius: 1rem;
