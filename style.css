@@ -95,6 +95,12 @@ button:hover, button:focus {
     transition-duration: 0.5s;  
 }
 
+h2:hover, h2:focus {
+    background-color: var(--clr-orange);
+    color: var(--clr-white);
+    transition-duration: 0.5s;
+}
+
 .attribution { 
     font-size: var(--fs-s); 
     margin-bottom: 0.5em;
