@@ -1,19 +1,13 @@
 const span = document.querySelector('span');
 const submit = document.querySelector('.submit');
+const rating = document.querySelectorAll('.rating_num');
 
-document.querySelectorAll('.rating_num').forEach(function(button){
+rating.forEach(function(button){
     button.onclick = function() {
-        span.textContent = button.dataset.number;
+        span.textContent = button.textContent;
     }
 })
 
-// submit.addEventListener('click', function() {
-//      if ('.rating_sum') {
-//     document.querySelector('.thanks').style.display = 'block';
-//     document.querySelector('.form').style.display = 'none';
-//      }
-//      else return false;
-// })
 
 submit.addEventListener('click', function() {
    document.querySelector('.thanks').style.display = 'block';
