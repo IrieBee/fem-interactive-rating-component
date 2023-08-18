@@ -89,6 +89,12 @@ button {
     font-size: var(--fs-m);
 }
 
+button:hover, button:focus {
+    background-color: var(--clr-white);
+    color: var(--clr-orange);
+    transition-duration: 0.5s;  
+}
+
 .attribution { 
     font-size: var(--fs-s); 
     margin-bottom: 0.5em;
