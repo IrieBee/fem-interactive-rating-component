@@ -28,6 +28,7 @@ This is a solution to the Interactive rating component challenge from Frontend M
 
 * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
 * https://www.freecodecamp.org/news/how-to-disappear-completely-2f23ddb14835/
+* https://stackoverflow.com/questions/46016155/change-css-display-none-to-shown
 
 ## Acknowledgements
 
