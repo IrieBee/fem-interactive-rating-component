@@ -33,5 +33,4 @@ This is a solution to the Interactive rating component challenge from Frontend M
 ## Acknowledgements
 
 * Odin project
-* Kevin Powell
 * Frontend Mentor
