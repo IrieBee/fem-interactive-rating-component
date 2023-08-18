@@ -17,7 +17,7 @@ This is a solution to the Interactive rating component challenge from Frontend M
 
 ### What I learned
 
-* 
+* Make section of the page invisible by using display: none;
 
 ## Links
 
@@ -27,6 +27,7 @@ This is a solution to the Interactive rating component challenge from Frontend M
 ## Useful resources
 
 * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
+* https://www.freecodecamp.org/news/how-to-disappear-completely-2f23ddb14835/
 
 ## Acknowledgements
 
