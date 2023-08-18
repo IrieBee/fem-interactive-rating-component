@@ -6,13 +6,86 @@
     --clr-grey: hsl(216, 12%, 54%);
     --clr-blue: hsl(213, 19%, 18%);
     --clr-dark-blue: hsl(216, 12%, 8%);
+    --clr-blue-btn: hsl(213, 19%, 22%);
 
     --fs-s: 0.65rem;
     --fs-m: 0.9375rem;
-    --fs-l: 1.25rem;
+    --fs-l: 1.1rem;
+    --fs-xl: 1.6rem;
 
     --fw-m: 400;
     --fw-l: 700;
 
     --ff: 'Overpass', sans-serif;
 }
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--clr-dark-blue);
+    color: var(--clr-light-grey);
+    font-family: var(--ff);
+    font-size: var(--fs-m);
+}
+
+main {
+    margin: auto;
+    background: var(--clr-blue);
+    max-width: 25.5rem;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+img {
+    padding: 1rem;
+}
+
+img, h2 {
+    background-color: var(--clr-blue-btn);
+    border-radius: 50%;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+}
+
+h1 {
+    color: var(--clr-white);
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-l);
+    padding: 2rem 0 0.75rem;
+}
+
+p {
+    line-height: 1.6;
+}
+
+h2 {
+    font-size: var(--fs-l);
+    font-weight: var(--fw-m);
+    padding: 0.75em 1.1em;
+}
+
+button {
+    background-color: var(--clr-orange);
+    border: none;
+    width: 100%;
+    color: var(--clr-white);
+    padding: 1em;
+    border-radius: 5em;
+    font-weight: var(--fw-l);
+    letter-spacing: 0.15em;
+    font-size: var(--fs-m);
+}
+
