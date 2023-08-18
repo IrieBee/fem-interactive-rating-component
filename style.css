@@ -40,16 +40,16 @@ body {
 main {
     margin: auto;
     background: var(--clr-blue);
-    max-width: 25.5rem;
+    max-width: 23rem;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1.9rem;
 }
 
 img {
-    padding: 1rem;
+    padding: 0.75rem;
 }
 
-img, h2 {
+img, .rating_num {
     background-color: var(--clr-blue-btn);
     border-radius: 50%;
 }
@@ -57,48 +57,39 @@ img, h2 {
 div {
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 0;
+    padding: 1.75rem 0;
 }
 
 h1 {
     color: var(--clr-white);
     font-size: var(--fs-xl);
     font-weight: var(--fw-l);
-    padding: 2rem 0 0.75rem;
+    padding: 1.35rem 0 0.5rem;
 }
 
 p {
-    line-height: 1.6;
+    line-height: 1.45;
 }
 
-h2 {
-    font-size: var(--fs-l);
+.rating_num {
+    font-size: var(--fs-m);
     font-weight: var(--fw-m);
-    padding: 0.75em 1.1em;
+    width: 2.9rem;
+    aspect-ratio: 1 / 1;
+    border: none;
+    color: var(--clr-light-grey);
 }
 
-button {
+.submit {
     background-color: var(--clr-orange);
     border: none;
     width: 100%;
     color: var(--clr-white);
-    padding: 1em;
+    padding: 0.77em;
     border-radius: 5em;
     font-weight: var(--fw-l);
     letter-spacing: 0.15em;
     font-size: var(--fs-m);
-}
-
-button:hover, button:focus {
-    background-color: var(--clr-white);
-    color: var(--clr-orange);
-    transition-duration: 0.5s;  
-}
-
-h2:hover, h2:focus {
-    background-color: var(--clr-orange);
-    color: var(--clr-white);
-    transition-duration: 0.5s;
 }
 
 .attribution { 
@@ -108,4 +99,23 @@ h2:hover, h2:focus {
 
 .attribution a {
     color: var(--clr-grey); 
+}
+
+button:hover, button:focus {
+    background-color: var(--clr-white);
+}
+
+.rating_num:hover, .rating_num:focus {
+    background-color: var(--clr-orange);
+    color: var(--clr-white);
+    font-weight: var(--fw-l);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+a:hover, a:focus ,
+button:hover, button:focus{
+    color: var(--clr-orange);
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
