@@ -118,6 +118,7 @@ button:hover, button:focus {
 
 .rating_num:focus {
     background-color: var(--clr-grey);
+    color: var(--clr-white);
 }
 
 a:hover, a:focus ,
