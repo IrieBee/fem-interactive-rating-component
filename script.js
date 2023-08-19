@@ -8,9 +8,14 @@ rating.forEach(function(button){
     }
 })
 
-
 submit.addEventListener('click', function() {
-   document.querySelector('.thanks').style.display = 'block';
-   document.querySelector('.form').style.display = 'none';
-})
-
+    if (span.textContent != '0') {
+    document.querySelector('.thanks').style.display = 'block';
+    document.querySelector('.form').style.display = 'none';
+    }
+    else {
+        submit.style.backgroundColor = 'var(--clr-orange)';
+        submit.style.color = 'var(--clr-white)';
+    }
+ })
+ 
