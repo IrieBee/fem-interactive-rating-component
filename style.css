@@ -104,7 +104,7 @@ p {
     color: var(--clr-grey); 
 }
 
-button:hover, button:focus {
+.submit:hover, .submit:focus {
     background-color: var(--clr-white);
 }
 
@@ -122,7 +122,7 @@ button:hover, button:focus {
 }
 
 a:hover, a:focus ,
-button:hover, button:focus{
+.submit:hover, .submit:focus{
     color: var(--clr-orange);
     transition-duration: 0.5s;
     cursor: pointer;
