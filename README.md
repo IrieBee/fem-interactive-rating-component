@@ -18,6 +18,7 @@ This is a solution to the Interactive rating component challenge from Frontend M
 ### What I learned
 
 * Make section of the page invisible by using display: none;
+* Change visibility of pages with submit button using javascript
 
 ## Links
 
