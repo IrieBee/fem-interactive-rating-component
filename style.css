@@ -108,12 +108,16 @@ button:hover, button:focus {
     background-color: var(--clr-white);
 }
 
-.rating_num:hover, .rating_num:focus {
+.rating_num:hover {
     background-color: var(--clr-orange);
     color: var(--clr-white);
     font-weight: var(--fw-l);
     transition-duration: 0.5s;
     cursor: pointer;
+}
+
+.rating_num:focus {
+    background-color: var(--clr-grey);
 }
 
 a:hover, a:focus ,
@@ -122,6 +126,8 @@ button:hover, button:focus{
     transition-duration: 0.5s;
     cursor: pointer;
 }
+
+
 
 /* Second part: 'thank you' */
 .thanks {
