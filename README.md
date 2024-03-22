@@ -6,7 +6,7 @@ This is a solution to the Interactive rating component challenge from Frontend M
 
 ### Screenshot
 
-![screenshot](https://github.com/ltsyBitsy/fem-interactive-rating-component/blob/main/images/screenshot.jpg)
+![screenshot](https://github.com/IrieBee/fem-interactive-rating-component/blob/main/images/screenshot.jpg)
 
 ## Built with
 
@@ -22,8 +22,8 @@ This is a solution to the Interactive rating component challenge from Frontend M
 
 ## Links
 
-* Solution URL: https://github.com/ltsyBitsy/fem-interactive-rating-component
-* Live Site URL: https://ltsybitsy.github.io/fem-interactive-rating-component/
+* Solution URL: https://github.com/IrieBee/fem-interactive-rating-component
+* Live Site URL: https://IrieBee.github.io/fem-interactive-rating-component/
 
 ## Useful resources
 
